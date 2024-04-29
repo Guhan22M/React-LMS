@@ -18,7 +18,7 @@ function MyCourses() {
                                     <table className="table table-bordered">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
+                                                <th>Name</th> 
                                                 <th>Link</th>
                                                 <th>Action</th>
                                             </tr>
@@ -45,7 +45,7 @@ function MyCourses() {
                                     <p>No courses added yet.</p>
                                 )
                             ) : (
-                                <p>Loading...</p>
+                                <p>Length is zero</p>
                             )}
                         </div>
                     </div>
