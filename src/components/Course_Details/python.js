@@ -143,9 +143,13 @@ function Python(){
    
     const {setCourse, user}= useContext(authContext)
    
-    const addToCart = (course, name) =>{
-        setCourse([...user,{course, name}]);
-       
+    const addToCart = (course, name, link) =>{
+        const CourseExist = user.find(i => i.name === name)
+        if(!CourseExist){
+            setCourse([...user,{course, name, link}]);
+        }else{
+            alert("already exsist course!!!");
+        }
     };
 
     // setCourse(courses)
@@ -177,35 +181,35 @@ function Python(){
                         <span className='float-end'>
                             <span className='me-5'>6 Hours 15 Minutes</span>
                             <Link to="https://youtu.be/_uQrJ0TkZlc?si=0et5yNSJtDp7wE94"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
-                            <button onClick={() => addToCart("Python","Programming with Mosh")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
+                            <button onClick={() => addToCart("Python","Programming with Mosh","https://youtu.be/_uQrJ0TkZlc?si=0et5yNSJtDp7wE94")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Brocode
                         <span className='float-end'>
                             <span className='me-5'>12 Hours </span>
                             <Link to="https://youtu.be/XKHEtdqhLK8?si=pWHeDxXuu9Fc8nQD"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
-                            <button onClick={() => addToCart("Python","Brocode")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
+                            <button onClick={() => addToCart("Python","Brocode","https://youtu.be/XKHEtdqhLK8?si=pWHeDxXuu9Fc8nQD")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>CodeIO
                         <span className='float-end'>
                             <span className='me-5'>2 Hours</span>
                             <Link to="https://youtu.be/xErUnOKQbFw?si=YijdGEzYYlmjyX6o"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
-                            <button onClick={() => addToCart("Python","CodeIO")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
+                            <button onClick={() => addToCart("Python","CodeIO","https://youtu.be/xErUnOKQbFw?si=YijdGEzYYlmjyX6o")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Freecodecamp
                         <span className='float-end'>
                             <span className='me-5'>4 Hours 30 Minutes</span>
                             <Link to="https://youtu.be/rfscVS0vtbw?si=EzdZKJ4O7j5pICxn"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
-                            <button onClick={() => addToCart("Python","Freecodecamp")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
+                            <button onClick={() => addToCart("Python","Freecodecamp","https://youtu.be/rfscVS0vtbw?si=EzdZKJ4O7j5pICxn")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Simplilearn
                         <span className='float-end'>
                             <span className='me-5'>12 Hours</span>
                             <Link to="https://youtu.be/ITSMDeOgXxw?si=IXemhfJENQB_e_9w"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
-                            <button onClick={() => addToCart("Python","Simplilearn")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
+                            <button onClick={() => addToCart("Python","Simplilearn","https://youtu.be/ITSMDeOgXxw?si=IXemhfJENQB_e_9w")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                 </ul>

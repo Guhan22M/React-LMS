@@ -6,5 +6,3 @@ const authContext = React.createContext({
 });
  
 export default authContext;
-
-
