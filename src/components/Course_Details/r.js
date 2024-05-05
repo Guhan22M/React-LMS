@@ -1,13 +1,19 @@
 // import { useParams } from "react-router-dom";
 import {Link} from 'react-router-dom';
-import React,{useState} from 'react';
+import React,{useContext} from 'react';
+import authContext from './context';
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 function R(){
-    // const {course_id}=useParams();
-    const [courses, setCourses] = useState([]);
-    const addToCart = (name, link) =>{
-        setCourses([...courses,{name, link}]);
+    const {setCourse, user}= useContext(authContext)
+   
+    const addToCart = (course, name, link) =>{
+        const CourseExist = user.find(i => i.name === name)
+        if(!CourseExist){
+            setCourse([...user,{course, name, link}]);
+        }else{
+            alert("already exsist course!!!");
+        }
     };
 
     return (
