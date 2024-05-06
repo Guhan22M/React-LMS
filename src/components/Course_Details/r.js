@@ -38,22 +38,22 @@ function R(){
                     <li className='list-group-item'>PSimpliLearn 
                         <span className='float-end'>
                             <span className='me-5'>10 Hours 10 Minutes</span>
-                            <Link href="https://www.youtube.com/live/Q5g6lYUn6Q4?si=KcC9DhpjXA1cm_6m"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button onClick={() => addToCart("PSimpliLearn","https://www.youtube.com/live/Q5g6lYUn6Q4?si=KcC9DhpjXA1cm_6m")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link href="https://www.youtube.com/live/Q5g6lYUn6Q4?si=KcC9DhpjXA1cm_6m"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={() => addToCart("R","PSimpliLearn","https://www.youtube.com/live/Q5g6lYUn6Q4?si=KcC9DhpjXA1cm_6m")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>FreeCodeCamp
                         <span className='float-end'>
                             <span className='me-5'>2 Hours </span>
-                            <Link to ="https://youtu.be/_V8eKsto3Ug?si=kHdzR5JbOZ2-BUb-"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button onClick={() => addToCart("FreeCodeCamp","https://youtu.be/_V8eKsto3Ug?si=kHdzR5JbOZ2-BUb-")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/_V8eKsto3Ug?si=kHdzR5JbOZ2-BUb-"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={() => addToCart("R","FreeCodeCamp","https://youtu.be/_V8eKsto3Ug?si=kHdzR5JbOZ2-BUb-")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>R Programming 
                         <span className='float-end'>
                             <span className='me-5'>1 Hour</span>
-                            <Link to="https://youtu.be/eR-XRSKsuR4?si=t7gQsxXBGwfcP8tU"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button onClick={() => addToCart("R Programming","https://youtu.be/eR-XRSKsuR4?si=t7gQsxXBGwfcP8tU")}  className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to="https://youtu.be/eR-XRSKsuR4?si=t7gQsxXBGwfcP8tU"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={() => addToCart("R","R Programming","https://youtu.be/eR-XRSKsuR4?si=t7gQsxXBGwfcP8tU")}  className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                 </ul>

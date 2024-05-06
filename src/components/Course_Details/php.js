@@ -36,29 +36,29 @@ function Php(){
                     <li className='list-group-item'>Simplilearn 
                         <span className='float-end'>
                             <span className='me-5'>6 Hours 30 Minutes</span>
-                            <Link to ="https://www.youtube.com/live/6EukZDFE_Zg?si=B1EElNd5_pT2tqsp"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://www.youtube.com/live/6EukZDFE_Zg?si=B1EElNd5_pT2tqsp"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("PHP","Simplilearn","https://www.youtube.com/live/6EukZDFE_Zg?si=B1EElNd5_pT2tqsp")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Freecodecamp 
                         <span className='float-end'>
                             <span className='me-5'> 4 Hours 30 minutes  </span>
-                            <Link to ="https://youtu.be/OK_JCtrrv-c?si=fmTuA3NZzZ7t2CIo"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/OK_JCtrrv-c?si=fmTuA3NZzZ7t2CIo"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("PHP","Freecodecamp","https://youtu.be/OK_JCtrrv-c?si=fmTuA3NZzZ7t2CIo")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>BroCode 
                         <span className='float-end'>
                             <span className='me-5'>4 Hours</span>
-                            <Link to ="https://youtu.be/zZ6vybT1HQs?si=Yy4QEv8niRc1ZBvA"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/zZ6vybT1HQs?si=Yy4QEv8niRc1ZBvA"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("PHP","BroCode ","https://youtu.be/zZ6vybT1HQs?si=Yy4QEv8niRc1ZBvA")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Edureka
                         <span className='float-end'>
                             <span className='me-5'>4 Hours 30 Minutes</span>
-                            <Link to ="https://youtu.be/hx38tnlYGlA?si=2wlgY-bbLcdkZUFE"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/hx38tnlYGlA?si=2wlgY-bbLcdkZUFE"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("PHP","Edureka","https://youtu.be/hx38tnlYGlA?si=2wlgY-bbLcdkZUFE")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                 </ul>

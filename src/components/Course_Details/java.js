@@ -40,36 +40,36 @@ function Java(){
                     <li className='list-group-item'>Programming with Mosh
                         <span className='float-end'>
                             <span className='me-5'>2 Hours 30 Minutes</span>
-                            <Link to ="https://youtu.be/eIrMbAQSU34?si=BtoUHUyYLW6-gbrL"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/eIrMbAQSU34?si=BtoUHUyYLW6-gbrL"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Java","Programming with Mosh","https://youtu.be/eIrMbAQSU34?si=BtoUHUyYLW6-gbrL")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>FreeCodeCamp 
                         <span className='float-end'>
                             <span className='me-5'>4 Hours </span>
-                            <Link to ="https://youtu.be/A74TOX803D0?si=SxsU_uFR1FCQHqFA"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/A74TOX803D0?si=SxsU_uFR1FCQHqFA"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Java","FreeCodeCamp","https://youtu.be/A74TOX803D0?si=SxsU_uFR1FCQHqFA")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>SimpliLean 
                         <span className='float-end'>
                             <span className='me-5'>11 Hours</span>
-                            <Link to ="https://www.youtube.com/live/CFD9EFcNZTQ?si=rzI38CSQyQiCtfJg"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://www.youtube.com/live/CFD9EFcNZTQ?si=rzI38CSQyQiCtfJg"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Java","SimpliLean","https://www.youtube.com/live/CFD9EFcNZTQ?si=rzI38CSQyQiCtfJg")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>BroCode 
                         <span className='float-end'>
                             <span className='me-5'>12 Hours </span>
-                            <Link to ="https://youtu.be/xk4_1vDrzzo?si=GVF3iZCMTqSswXvy"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/xk4_1vDrzzo?si=GVF3iZCMTqSswXvy"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Java","BroCode","https://youtu.be/xk4_1vDrzzo?si=GVF3iZCMTqSswXvy")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Telusko 
                         <span className='float-end'>
                             <span className='me-5'>12 Hours 30 minutes</span>
-                            <Link to ="https://youtu.be/BGTx91t8q50?si=zdi2JEPxtfSPqh2E"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/BGTx91t8q50?si=zdi2JEPxtfSPqh2E"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Java","Telusko","https://youtu.be/BGTx91t8q50?si=zdi2JEPxtfSPqh2E")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                 </ul>

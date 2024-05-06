@@ -39,22 +39,22 @@ function Css(){
                     <li className='list-group-item'>Freecode camp
                         <span className='float-end'>
                             <span className='me-5'>11 Hours</span>
-                            <Link to ="https://youtu.be/OXGznpKZ_sA?si=o5jYo7PQJji56hvO"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button onClick={()=>addToCart("Freecode camp","https://youtu.be/OXGznpKZ_sA?si=o5jYo7PQJji56hvO")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/OXGznpKZ_sA?si=o5jYo7PQJji56hvO"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("CSS","Freecode camp","https://youtu.be/OXGznpKZ_sA?si=o5jYo7PQJji56hvO")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>SuperSimpleDev 
                         <span className='float-end'>
                             <span className='me-5'>6 Hours 30 Minutes</span>
-                            <Link to ="https://youtu.be/G3e-cpL7ofc?si=DV63pjPHX8XB_kBh"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button onClick={() =>addToCart("SuperSimpleDev","https://youtu.be/G3e-cpL7ofc?si=DV63pjPHX8XB_kBh")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/G3e-cpL7ofc?si=DV63pjPHX8XB_kBh"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={() =>addToCart("CSS","SuperSimpleDev","https://youtu.be/G3e-cpL7ofc?si=DV63pjPHX8XB_kBh")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>SimpliLearn 
                         <span className='float-end'>
                             <span className='me-5'>3 Hours</span>
-                            <Link to ="https://www.youtube.com/live/J5KxiOnIrKg?si=LRHIFA2a8HJ6H1yB"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button onClick={()=>addToCart("SimpliLearn","https://www.youtube.com/live/J5KxiOnIrKg?si=LRHIFA2a8HJ6H1yB")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://www.youtube.com/live/J5KxiOnIrKg?si=LRHIFA2a8HJ6H1yB"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("CSS","SimpliLearn","https://www.youtube.com/live/J5KxiOnIrKg?si=LRHIFA2a8HJ6H1yB")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                 </ul>

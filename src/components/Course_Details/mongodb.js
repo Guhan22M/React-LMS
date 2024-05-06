@@ -36,36 +36,36 @@ function Mongodb(){
                     <li className='list-group-item'>FreeCodeCamp 
                         <span className='float-end'>
                             <span className='me-5'>3 Hours </span>
-                            <Link to ="https://youtu.be/xh4gy1lbL2k?si=kbiU_-MCZGFl3bs7"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/xh4gy1lbL2k?si=kbiU_-MCZGFl3bs7"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Mongo DB","FreeCodeCamp","https://youtu.be/xh4gy1lbL2k?si=kbiU_-MCZGFl3bs7")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Brocode
                         <span className='float-end'>
                             <span className='me-5'>12 Hours </span>
-                            <Link to ="https://youtu.be/XKHEtdqhLK8?si=pWHeDxXuu9Fc8nQD"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/XKHEtdqhLK8?si=pWHeDxXuu9Fc8nQD"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Mongo DB","Brocode","https://youtu.be/XKHEtdqhLK8?si=pWHeDxXuu9Fc8nQD")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>CodeIO
                         <span className='float-end'>
                             <span className='me-5'>2 Hours</span>
-                            <Link to ="https://youtu.be/xErUnOKQbFw?si=YijdGEzYYlmjyX6o"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/xErUnOKQbFw?si=YijdGEzYYlmjyX6o"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Mongo DB","CodeIO","https://youtu.be/xErUnOKQbFw?si=YijdGEzYYlmjyX6o")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Freecodecamp
                         <span className='float-end'>
                             <span className='me-5'>4 Hours 30 Minutes</span>
-                            <Link to ="https://youtu.be/rfscVS0vtbw?si=EzdZKJ4O7j5pICxn"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/rfscVS0vtbw?si=EzdZKJ4O7j5pICxn"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Mongo DB","Freecodecamp","https://youtu.be/rfscVS0vtbw?si=EzdZKJ4O7j5pICxn")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Simplilearn
                         <span className='float-end'>
                             <span className='me-5'>12 Hours</span>
-                            <Link to ="https://youtu.be/ITSMDeOgXxw?si=IXemhfJENQB_e_9w"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/ITSMDeOgXxw?si=IXemhfJENQB_e_9w"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Mongo DB","Simplilearn","https://youtu.be/ITSMDeOgXxw?si=IXemhfJENQB_e_9w")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                 </ul>

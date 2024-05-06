@@ -41,29 +41,29 @@ function Html(){
                     <li className='list-group-item'>Free Code Camp 
                         <span className='float-end'>
                             <span className='me-5'>4 Hours</span>
-                            <Link to ="https://youtu.be/kUMe1FH4CHE?si=AZAeqsbbnWJpKVKN"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button onClick={()=>addToCart("Free Code Camp","https://youtu.be/kUMe1FH4CHE?si=AZAeqsbbnWJpKVKN")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/kUMe1FH4CHE?si=AZAeqsbbnWJpKVKN"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("HTML","Free Code Camp","https://youtu.be/kUMe1FH4CHE?si=AZAeqsbbnWJpKVKN")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>SuperSimpleDev 
                         <span className='float-end'>
                             <span className='me-5'>6 Hours 30 Minutes</span>
-                            <Link to ="https://youtu.be/G3e-cpL7ofc?si=cdMdzVHGgUH8YkNz"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button onClick={()=>addToCart("SuperSimpleDev","https://youtu.be/G3e-cpL7ofc?si=cdMdzVHGgUH8YkNz")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/G3e-cpL7ofc?si=cdMdzVHGgUH8YkNz"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("HTML","SuperSimpleDev","https://youtu.be/G3e-cpL7ofc?si=cdMdzVHGgUH8YkNz")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>BROCODE
                         <span className='float-end'>
                             <span className='me-5'>1 Hour</span>
-                            <Link to ="https://youtu.be/HD13eq_Pmp8?si=03uEDjPC2TwmuiyS"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button onClick={()=>addToCart("BROCODE","https://youtu.be/HD13eq_Pmp8?si=03uEDjPC2TwmuiyS")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/HD13eq_Pmp8?si=03uEDjPC2TwmuiyS"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("HTML","BROCODE","https://youtu.be/HD13eq_Pmp8?si=03uEDjPC2TwmuiyS")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Simplilearn
                         <span className='float-end'>
                             <span className='me-5'>5 Hours </span>
-                            <Link to ="https://youtu.be/OUjU--gVylE?si=yo5K7hoBNF4kUoPS"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button onClick={()=>addToCart("Simplilearn","https://youtu.be/OUjU--gVylE?si=yo5K7hoBNF4kUoPS")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/OUjU--gVylE?si=yo5K7hoBNF4kUoPS"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("HTML","Simplilearn","https://youtu.be/OUjU--gVylE?si=yo5K7hoBNF4kUoPS")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                 </ul>

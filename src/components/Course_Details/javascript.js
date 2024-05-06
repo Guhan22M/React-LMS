@@ -37,36 +37,36 @@ function Javascript(){
                     <li className='list-group-item'>Free code camp
                         <span className='float-end'>
                             <span className='me-5'>3 Hours 30 Minutes</span>
-                            <Link to ="https://youtu.be/PkZNo7MFNFg?si=gkk9bfG8AvIGcROg"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/PkZNo7MFNFg?si=gkk9bfG8AvIGcROg"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Java Script","Free code camp","https://youtu.be/PkZNo7MFNFg?si=gkk9bfG8AvIGcROg")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Super simple Dev 
                         <span className='float-end'>
                             <span className='me-5'>12 Hours </span>
-                            <Link to ="https://youtu.be/SBmSRK3feww?si=QKDnwTsu03GLv72q"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/SBmSRK3feww?si=QKDnwTsu03GLv72q"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Java Script","Super simple Dev","https://youtu.be/SBmSRK3feww?si=QKDnwTsu03GLv72q")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Programming with Mosh
                         <span className='float-end'>
                             <span className='me-5'>1 Hour</span>
-                            <Link to ="https://youtu.be/W6NZfCO5SIk?si=4dasd2mt5ny2YzkD"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/W6NZfCO5SIk?si=4dasd2mt5ny2YzkD"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Java Script","Programming with Mosh","https://youtu.be/W6NZfCO5SIk?si=4dasd2mt5ny2YzkD")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Traversy media
                         <span className='float-end'>
                             <span className='me-5'>12 Hours</span>
-                            <Link to ="https://youtu.be/BI1o2H9z9fo?si=5YpfuSmzXzqr0vKj"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/BI1o2H9z9fo?si=5YpfuSmzXzqr0vKj"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Java Script","Traversy media","https://youtu.be/BI1o2H9z9fo?si=5YpfuSmzXzqr0vKj")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                     <li className='list-group-item'>Brocode 
                         <span className='float-end'>
                             <span className='me-5'>8 Hours</span>
-                            <Link to ="https://youtu.be/8dWL3wF_OMw?si=A_vHz-6xWmsH88EH"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button>
-                            <button className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button></Link>
+                            <Link to ="https://youtu.be/8dWL3wF_OMw?si=A_vHz-6xWmsH88EH"><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link>
+                            <button onClick={()=>addToCart("Java Script","Brocode","https://youtu.be/8dWL3wF_OMw?si=A_vHz-6xWmsH88EH")} className='btn btn-sm btn-primary m-2'><i className='bi bi-cart-plus'></i></button>
                         </span>
                     </li>
                 </ul>

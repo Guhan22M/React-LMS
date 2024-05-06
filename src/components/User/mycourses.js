@@ -35,19 +35,9 @@ function MyCourses(){
                                         <th>Action</th>
                                     </tr>
                                 </thead>
-                                {/* <tbody>
-                                    {list.map((l,index)=>(
-                                        <tr>
-                                            <td>{l.course}</td>
-                                            <td>{l.name}</td>
-                                            <td><Link to={l.link}><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link></td>
-                                            <td><button onClick={()=>action(index)} className='btn btn-sm btn-danger m-2' >Delete</button></td>
-                                        </tr>
-                                    ))}
-                                </tbody> */}
                                 <tbody>
                                     {list.map((l, index) => (
-                                        <tr key={l.id}> {/* Assuming each item in list has an 'id' property */}
+                                        <tr key={l.id}> 
                                             <td>{l.course}</td>
                                             <td>{l.name}</td>
                                             <td><Link to={l.link}><button className='btn btn-sm btn-danger'><i className='bi bi-youtube'></i></button></Link></td>
