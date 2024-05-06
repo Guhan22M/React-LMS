@@ -2,6 +2,8 @@
 import {Link} from 'react-router-dom';
 import React, {useContext} from 'react';
 import authContext from './context';
+import { ToastContainer, toast, Flip } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 function MySql(){
@@ -11,8 +13,29 @@ function MySql(){
         const CourseExist = user.find(i => i.name === name)
         if(!CourseExist){
             setCourse([...user,{course, name, link}]);
+            toast.success('Course Added Successfully!', {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+                transition: Flip
+                });
         }else{
-            alert("already exsist course!!!");
+            toast.error('Course Already Exist !!', {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+                transition: Flip
+                });
         }
     };
     return (
@@ -90,6 +113,19 @@ function MySql(){
                     </div>
                 </div>
             </div>
+            <ToastContainer
+            position="top-center"
+            autoClose={2000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="dark"
+            transition={Flip}
+        />
         </div>
     );
 }
