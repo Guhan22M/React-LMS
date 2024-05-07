@@ -67,6 +67,7 @@ import R from './Course_Details/r';
 import Java from './Course_Details/java';
 import Php from './Course_Details/php';
 import Login from './User/login';
+import ProfileSettings from './User/profile_setting';
 import Register from './User/register';
 import Dashboard from './User/dashboard';
 import MyCourses from './User/mycourses';
@@ -99,6 +100,7 @@ function Main() {
           <Route path="/java" element={<Java />}></Route>
           <Route path="/php" element={<Php />}></Route>
           <Route path="/user-login" element={<Login />}></Route>
+          <Route path='/profile-setting' element={<ProfileSettings/>}></Route>
           <Route path="/user-register" element={<Register />}></Route>
           <Route path="/user-dashboard" element={<Dashboard />}></Route>
           <Route path="/user-mycourses" element={<MyCourses />}></Route>
