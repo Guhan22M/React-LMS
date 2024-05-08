@@ -68,8 +68,7 @@ import Java from './Course_Details/java';
 import Php from './Course_Details/php';
 import Login from './User/login';
 import ProfileSettings from './User/profile_setting';
-import OldPassword from './User/old_password';
-import NewPassword from './User/new password';
+import ChangePassword from './User/change_password';
 import Register from './User/register';
 import Dashboard from './User/dashboard';
 import MyCourses from './User/mycourses';
@@ -103,8 +102,7 @@ function Main() {
           <Route path="/php" element={<Php />}></Route>
           <Route path="/user-login" element={<Login />}></Route>
           <Route path='/profile-setting' element={<ProfileSettings/>}></Route>
-          <Route path='/user-oldpassword' element={<OldPassword/>} ></Route>
-          <Route path='/user-newpassword' element={<NewPassword/>} ></Route>
+          <Route path='/user-changepassword' element={<ChangePassword/>} ></Route>
           <Route path="/user-register" element={<Register />}></Route>
           <Route path="/user-dashboard" element={<Dashboard />}></Route>
           <Route path="/user-mycourses" element={<MyCourses />}></Route>
