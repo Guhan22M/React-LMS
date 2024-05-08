@@ -13,7 +13,7 @@ function Python(){
     const {setCourse, user}= useContext(authContext)
    
     const addToCart = (course, name, link) =>{
-        const CourseExist = user.find(i => i.name === name)
+        const CourseExist = user.find(i => i.link === link)
         if(!CourseExist){
             setCourse([...user,{course, name, link}]);
             toast.success('Course Added Successfully!', {
